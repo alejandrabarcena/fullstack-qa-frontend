@@ -21,19 +21,18 @@ npx prettier --check .
 
 ## 🧪 Comandos útiles para desarrollo
 
-| Comando                  | Descripción                                     |
-|--------------------------|-------------------------------------------------|
-| `npm install`            | Instala todas las dependencias del proyecto     |
-| `npm run dev`            | Levanta el servidor de desarrollo con Vite      |
-| `npx eslint .`           | Ejecuta ESLint sobre todo el código             |
-| `npx prettier --write .` | Aplica formateo automático con Prettier         |
-| `git add . && git commit`| Guarda cambios y ejecuta verificación automática|
+| Comando                   | Descripción                                      |
+| ------------------------- | ------------------------------------------------ |
+| `npm install`             | Instala todas las dependencias del proyecto      |
+| `npm run dev`             | Levanta el servidor de desarrollo con Vite       |
+| `npx eslint .`            | Ejecuta ESLint sobre todo el código              |
+| `npx prettier --write .`  | Aplica formateo automático con Prettier          |
+| `git add . && git commit` | Guarda cambios y ejecuta verificación automática |
 
 ---
 
 🚀 Proyecto en evolución mantenido por **Alejandra Bárcena**  
-*Full Stack QA Dev con sparkle, visión crítica y su fiel pug a un lado 🐾✨*
-
+_Full Stack QA Dev con sparkle, visión crítica y su fiel pug a un lado 🐾✨_
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -47,11 +46,9 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 npx prettier --check .
 
-```
+````
 
 ```bash
 npx eslint .
 npx prettier --check .
-```
-
-
+````

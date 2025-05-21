@@ -15,7 +15,24 @@ Antes de cada commit, se ejecutan automáticamente:
 ```bash
 npx eslint .
 npx prettier --check .
+```
 
+---
+
+## 🧪 Comandos útiles para desarrollo
+
+| Comando                  | Descripción                                     |
+|--------------------------|-------------------------------------------------|
+| `npm install`            | Instala todas las dependencias del proyecto     |
+| `npm run dev`            | Levanta el servidor de desarrollo con Vite      |
+| `npx eslint .`           | Ejecuta ESLint sobre todo el código             |
+| `npx prettier --write .` | Aplica formateo automático con Prettier         |
+| `git add . && git commit`| Guarda cambios y ejecuta verificación automática|
+
+---
+
+🚀 Proyecto en evolución mantenido por **Alejandra Bárcena**  
+*Full Stack QA Dev con sparkle, visión crítica y su fiel pug a un lado 🐾✨*
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

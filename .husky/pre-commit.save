@@ -1,0 +1,23 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx eslint .
+npx prettier --check .
+
+git add .
+git commit -m "🔍 Prueba final de hook funcionando correctamente"
+
+nano .husky/pre-commit
+
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx eslint .
+npx prettier --check .
+
+
+.husky/pre-commit
+
+chmod +x .husky/pre-commit
+
+
